@@ -118,7 +118,11 @@ footer{
     height: auto;
     margin: 2%;
   }
-  
+  .run-image{
+    height: 50%;
+    width: auto;
+    margin: 2%;
+  }
 }
 
 /* Subscription Section */
