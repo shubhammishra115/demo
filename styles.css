@@ -113,15 +113,23 @@ footer{
   text-decoration: none;
 }
 @media (max-width : 720px) {
+  .feature-section{
+    background-image: url('images/bg-curvy-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 5% 5%;
+  }
+
   .feature-image{
     width: 70%;
     height: auto;
     margin: 2%;
   }
+
   .run-image{
-    height: 25%;
+    height: 50%;
     width: auto;
-    margin: 2%;
   }
 }
 
