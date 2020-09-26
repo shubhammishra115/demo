@@ -87,7 +87,6 @@ footer{
 }
 
 .feature-image{
-
   height: 300px;
   margin: 2%;
 }
@@ -112,6 +111,14 @@ footer{
 
 .feature-link:hover{
   text-decoration: none;
+}
+@media (max-width : 720px) {
+  .feature-image{
+    width: 70%;
+    height: auto;
+    margin: 2%;
+  }
+  
 }
 
 /* Subscription Section */
